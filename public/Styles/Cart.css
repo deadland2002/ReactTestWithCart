@@ -1,0 +1,60 @@
+*{
+    padding: 0;
+    margin: 0;
+    color: white;
+}
+.cartParent{
+    padding: 10px 20px;
+    background-color: rgb(31, 31, 31);
+    width: calc(100% - 40px);
+    min-height: calc(100vh - 70px);
+    list-style-type: none;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.cartList{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.cartField{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: rgb(48, 48, 48);
+    padding: 5px 10px;
+    border-radius: 20px;
+}
+
+.editCart{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.editCart label{
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.editCart input , input:focus{
+    background-color: transparent;
+    outline: none;
+    border: 0;
+    border-bottom: 2px solid white;
+    color: white;
+}
+
+.addRem{
+    color: black;
+    background-color: rgb(206, 206, 206);
+    padding: 2px 15px;
+    border: 0;
+    border-radius: 20px;
+    cursor: pointer;
+}
